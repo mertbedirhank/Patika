@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { /*Arkaplanı ortaya gelecek şekilde bir adet olmak üzere ayarlıyorum*/
+background-image: url(./img/google.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-position: top;}
+
+.search-box { /*Arama kutucuğunu ve içindeki bilgileri ortalıyorum*/
+    border: none;
+    background-color: #EEEEEE;
+    text-align: center;
+    width: 99%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.url { /*Arama kutucuğunun enini ayarlıyorum*/
+    width: 20%;
+}
+
+.hover { /*Arama butonlarını ayarlıyorum*/
+    width: 6%;
+    text-align: center;
+}
+
+.hover:hover { /**/
+    text-decoration: underline;
+}
+
+.text { /*Kutuların içindeki yazıları ayarlıyorum*/
+    text-align: center;
+    color: blue;
+}
+
+.p { /*Kutuların içindeki yazılardan link olmayanların rengini ayarlıyorum*/
+    color: black !important;
+}
+
+.a { /*Linklerin rengini ayarlıyorum*/
+    color: blue !important;
+}
+
+.border-decoration { /*Kutuları hizalıyorum*/
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.box-1 { /*Her bir kutuya farklı renk verip pozisyonunu ayarlıyorum*/
+    border: none;
+    width: 40%;
+    background-color: #7DE5DA;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.box-2 { 
+    border: none;
+    width: 20%;
+    background-color: #70CBC2;
+}
+
+.box-3 {
+    border: none;
+    width: 40%;
+    background-color: #62B3AA;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.email {
+    opacity: 1;
+    color: black;
+    width: 40%;
+}
+
+.sbs { /*Subscribe butonunu ayarlıyorum*/
+    min-width: auto;
+    width: 70px;
+}
+
+.copyright { 
+    text-align: center;
+    margin-top: 25px;
+}
