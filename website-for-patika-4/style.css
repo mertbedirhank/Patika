@@ -1,0 +1,141 @@
+* {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#navdiv{
+    display:flex;
+    width:17%;
+    margin-left: 82%;
+    justify-content: space-around;
+    margin-top: 1%;
+    height:35px;
+  }
+  nav img{
+    margin-top: 5px;
+  }
+  #googleimg{
+    
+    max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;  
+  }
+  #profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  /* Removing underline from links*/
+  a{
+    margin-top: 8px;
+    text-decoration: none;
+  }
+  button{
+    border-radius: 3px;
+    height:100%;
+    padding:5px 12px;
+    background-color: #4C87E1 ;
+    color:white;
+    border:none;
+  }
+  /* setting up size and border stle of search bar*/
+  #maindiv{
+  width:35%;
+  border-radius: 50px;
+  display: flex;
+  height:40px;
+  border:1px solid lightgrey;
+  }
+  #inputspan{
+    width:80%;
+  }
+  span{
+    vertical-align: top;
+  }
+  span:first-child{
+    width:10%;
+    border-radius: 50px;
+    margin-top: 7px;
+  }
+  span:last-child{
+    width:10%;
+    border-radius: 50px;
+    margin-top: 7px;
+  }
+  input{
+    height:100%;
+    width:100%;
+    border: none;
+    padding:0px;
+  }
+  section{
+    display: flex;
+    margin-top: 2%;
+    width:23%;
+    justify-content: space-around;
+    margin-bottom: 2%;
+  }
+  section button{
+    padding:10px 12px;
+    background-color: lightgrey;
+    color:black;
+  }
+  ul{
+    display: flex;
+    width: 30%;
+    padding-left: 0px;
+    list-style: none;
+    justify-content: space-around;
+    margin: 6px;
+  }
+  #Bottomdiv{
+    display:flex;
+    font-size: 12px;
+    margin-top: 3%;
+  }
+  #Bottomdiv span{
+    width:7%;
+    margin-left: 31%;
+  }
+  /*When hovered*/
+  a:hover{
+    text-decoration: underline;
+  }
+  button:hover{
+    border: 0.1px solid gray;
+  }
+.boxes {
+    background: #f2f2f2;    
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.box-1 {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}   
+.left {
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+}
