@@ -247,9 +247,22 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 /**/
-#microphone {
-  float: left;
-  margin: auto;
+#voice-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+#voice-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
 }
 
 /*Footer alanlarını sıralı liste halinde gösterirken ortaya çıkan sembolleri gizleme ayarı*/
